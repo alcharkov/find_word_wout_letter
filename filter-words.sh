@@ -1,0 +1,1 @@
+grep -v '[[:upper:]]' lithuanian-words-list.txt | sed -r '/^.{,2}$/d' > lithuanian-words-list-without-names.txt
